@@ -36,12 +36,23 @@ Proyecto para poner en practica los siguientes principios:
 
 
 ## 02-initial-demo-typescript
-Migracion del proyecto original de javascript a typescript, en el cual se ppone en practica los siguientes principios:
+Migracion del proyecto original de javascript a typescript, en el cual se ponen en practica los siguientes principios:
 - configuracion del archivo .eslintrc.json, .babelrc, next.config.js
 - Uso de `useRouter`, `CSS Globals` `CSS_mododules`, `inline_styles`
 - Manejo de `interface`, `type`
 - Uso de propiedades `FC`, `ReactNode`, `ReactElemen`, `JSX.Element`, `CSSProperties`, `NextApiRequest`, `NextApiResponse`,  `NextPage`, `AppProps`
-- Metodos `<Head>` , `<Link>`,  
+- Metodos de NextJs `<Head>` , `<Link>`,  
 - Creacion de componentes, `props`
 - Creacion de Layouts y multi layouts
 - Desplieges en local, github-vercel, docker
+
+
+## 03-pokemon-static-typescript
+Creacion de proyecto de tarjetas de personajes POKEMON, en el cual se ponen en practica los siguientes principios:
+- Manejo de libreria de componentes `NextUI`, `axios`
+- Manejo de `interface`, `type`
+- Uso de propiedades NextJS `FC`, `NextPage`, `useRouter`
+- Creacion de paginas dinamicas `[id]`
+- Uso de ejecucion del lado del servidor `getStaticProps`, `getStaticPaths`
+- Uso de componentes Next/UI, `<Row>`, `<Text>`, `<Image>`, `<Spacer>`, `<Link>`, `<Card>, <Card.Body>, <Card.Header>`, `<Grid>`
+- 
