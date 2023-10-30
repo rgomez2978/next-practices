@@ -49,10 +49,11 @@ Migracion del proyecto original de javascript a typescript, en el cual se ponen 
 
 ## 03-pokemon-static-typescript
 Creacion de proyecto de tarjetas de personajes POKEMON, en el cual se ponen en practica los siguientes principios:
-- Manejo de libreria de componentes `NextUI`, `axios`
+- Manejo de libreria de componentes `NextUI`, `axios`, `canvas-confetti`
 - Manejo de `interface`, `type`
-- Uso de propiedades NextJS `FC`, `NextPage`, `useRouter`
+- Uso de propiedades de React JS: `useEffect`,  `useState`
+- Uso de propiedades NextJS `FC`, `NextPage`, `useRouter`, `Image`, `Html`, `Head`, `Main`, `NextScript`, `DocumentContext`
 - Creacion de paginas dinamicas `[id]`
 - Uso de ejecucion del lado del servidor `getStaticProps`, `getStaticPaths`
-- Uso de componentes Next/UI, `<Row>`, `<Text>`, `<Image>`, `<Spacer>`, `<Link>`, `<Card>, <Card.Body>, <Card.Header>`, `<Grid>`
+- Uso de componentes Next/UI, `<Row>`, `<Text>`, `<Image>`, `<Button>`, `<Container>`, `<Spacer>`, `<Link>`, `<Card>, <Card.Body>, <Card.Header>`, `<Grid>`, `createTheme`
 - 
