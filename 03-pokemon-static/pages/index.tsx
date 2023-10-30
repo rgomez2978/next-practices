@@ -1,9 +1,9 @@
-import { Button, Card, Grid, Row, Text } from '@nextui-org/react'
 import type { GetStaticProps, NextPage } from 'next'
+import { Grid, Image } from '@nextui-org/react'
 import { Layout } from '../components/layouts'
 import { pokeApi } from '../api'
 import { PokemonListResponse, SmallPokemon } from '../interfaces'
-import { PokemonCard } from '../components/pokemon/PokemonCard'
+import { PokemonCard } from '../components/pokemon'
 
 interface Props {
   pokemons: SmallPokemon[];
@@ -14,6 +14,14 @@ const HomePage: NextPage<Props> = ({ pokemons }) => {
   return (
     <Layout title="Listado de pokemos">
 
+      <Image
+        src='/img/banner.png'
+        alt=''
+        width={200}
+        height={150}
+      />
+
+
       <Grid.Container gap={2} justify='flex-start'>
         {
           pokemons.map((pokemon) => (
@@ -21,14 +29,7 @@ const HomePage: NextPage<Props> = ({ pokemons }) => {
           ))
         }
       </Grid.Container>
-
-
-      {/*
-      <Button color="gradient">
-        Hola mundo
-      </Button > */}
-
-    </Layout >
+    </Layout>
   )
 }
 
