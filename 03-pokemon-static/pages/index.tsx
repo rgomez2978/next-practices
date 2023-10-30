@@ -13,15 +13,6 @@ const HomePage: NextPage<Props> = ({ pokemons }) => {
 
   return (
     <Layout title="Listado de pokemos">
-
-      <Image
-        src='/img/banner.png'
-        alt=''
-        width={200}
-        height={150}
-      />
-
-
       <Grid.Container gap={2} justify='flex-start'>
         {
           pokemons.map((pokemon) => (
