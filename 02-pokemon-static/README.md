@@ -24,13 +24,13 @@ Elaborado en Next.Js `v12.3.4`, React `v17.0.2`, Bootstrap 4, carga de datos des
 
 ## Screenshots del proyecto
 
-<img src="./public/img/capture_1.png" alt="drawing" style="width:700px;"/>
+<img src="./pokemon-static-site-generation/public/img/capture_1.png" alt="drawing" style="width:700px;"/>
 
-<img src="./public/img/capture_2.png" alt="drawing" style="width:700px;"/>
+<img src="./pokemon-static-site-generation/public/img/capture_2.png" alt="drawing" style="width:700px;"/>
 
-<img src="./public/img/capture_3.png" alt="drawing" style="width:700px;"/>
+<img src="./pokemon-static-site-generation/public/img/capture_3.png" alt="drawing" style="width:700px;"/>
 
-<img src="./public/img/capture_4.png" alt="drawing" style="width:300px;"/>
+<img src="./pokemon-static-site-generation/public/img/capture_4.png" alt="drawing" style="width:300px;"/>
 
 
 ## Descripción del proyecto
