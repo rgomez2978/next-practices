@@ -47,13 +47,30 @@ Migracion del proyecto original de javascript a typescript, en el cual se ponen 
 - Desplieges en local, github-vercel, docker
 
 
-## 03-pokemon-static-typescript
+## 03-pokemon-static-site-generation
 Creacion de proyecto de tarjetas de personajes POKEMON, en el cual se ponen en practica los siguientes principios:
-- Manejo de libreria de componentes `NextUI`, `axios`, `canvas-confetti`
-- Manejo de `interface`, `type`
+- Manejo de libreria de componentes `NextUI`
+- Manejo de libreria de conexion API `axios`
+- Manejo de librerias externas `canvas-confetti`
+- Manejo de tipado `interface`, `type`
 - Uso de propiedades de React JS: `useEffect`,  `useState`
 - Uso de propiedades NextJS `FC`, `NextPage`, `useRouter`, `Image`, `Html`, `Head`, `Main`, `NextScript`, `DocumentContext`
 - Creacion de paginas dinamicas `[id]`
 - Uso de ejecucion del lado del servidor `getStaticProps`, `getStaticPaths`
 - Uso de componentes Next/UI, `<Row>`, `<Text>`, `<Image>`, `<Button>`, `<Container>`, `<Spacer>`, `<Link>`, `<Card>, <Card.Body>, <Card.Header>`, `<Grid>`, `createTheme`
-- 
+- Tecnica de Construccion estatica del site con `Static Site Generation (SSG)` 
+
+
+
+## 04-pokemon-incremental-static-regeneration
+Creacion de proyecto de tarjetas de personajes POKEMON, en el cual se ponen en practica los siguientes principios:
+- Manejo de libreria de componentes `NextUI`
+- Manejo de libreria de conexion API `axios`
+- Manejo de librerias externas `canvas-confetti`
+- Manejo de tipado `interface`, `type`
+- Uso de propiedades de React JS: `useEffect`,  `useState`
+- Uso de propiedades NextJS `FC`, `NextPage`, `useRouter`, `Image`, `Html`, `Head`, `Main`, `NextScript`, `DocumentContext`
+- Creacion de paginas dinamicas `[id]`
+- Uso de ejecucion del lado del servidor `getStaticProps`, `getStaticPaths`
+- Uso de componentes Next/UI, `<Row>`, `<Text>`, `<Image>`, `<Button>`, `<Container>`, `<Spacer>`, `<Link>`, `<Card>, <Card.Body>, <Card.Header>`, `<Grid>`, `createTheme`
+- Tecnica de Construccion estatica del site con `Incremental Static Generation (ISG)` e `Incremental Static Regeneration (ISR)`
