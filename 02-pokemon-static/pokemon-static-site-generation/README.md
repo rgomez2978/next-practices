@@ -11,7 +11,7 @@
 
 Creacion de proyecto de tarjetas de personajes **POKEMON** con uso del API `PokeAPI` , en el cual se ponen en practica tecnicas de construccion estaticas del lado del servidor como: `Incremental Static Generation (ISG)` e `Incremental Static Regeneration (ISR)`.  Asi como tambien se pusieron en practica los siguientes principios:
 
-Elaborado en Next.Js `v12.3.4`, React `v17.0.2`, Bootstrap 4, carga de datos desde array.
+Elaborado en Next.Js `v12.3.4`, React `v17.0.2`, NextUI `v1.0.2-beta.2`, carga de datos desde API externa `PokeAPI`.
 
 **pokeapi-static**
 [DEMO](https://rgomez-next-pokeapi-ssg.vercel.app/)
@@ -34,7 +34,6 @@ Elaborado en Next.Js `v12.3.4`, React `v17.0.2`, Bootstrap 4, carga de datos des
 
 
 ## Descripción del proyecto
->Proyecto de tarjetas de personajes **POKEMON** con uso del API `PokeAPI` , en el cual se ponen en practica tecnicas de construccion estaticas del lado del servidor como: `Incremental Static Generation (ISG)` e `Incremental Static Regeneration (ISR)`.  Asi como tambien se pusieron en practica los siguientes principios:
 <div>&nbsp;</div>
 
 
@@ -81,16 +80,12 @@ Elaborado en Next.Js `v12.3.4`, React `v17.0.2`, Bootstrap 4, carga de datos des
 
 
 ## Como levantar proyecto
----
-
     npm run dev    (modo desarrollo)
     npm run start  (despues de hacer build)
 <div>&nbsp; </div>
 
 
 ## Exportar proyecto - Build
----
-
 Ejecute el comando `npm run build` para exportar el proyecto. Al exportar el proyecto se almacenarán en el directorio `.next`.
 
     npm run build
