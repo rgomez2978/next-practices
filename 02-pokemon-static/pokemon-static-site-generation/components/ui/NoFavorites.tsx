@@ -13,7 +13,7 @@ export const NoFavorites = ({ }) => {
       alignSelf: 'center',
     }}>
 
-      <Text h1>No hay Pokemos</Text>
+      <Text h1>No hay Pokemons</Text>
       <Image
         src="/img/image-placeholder.svg"
         alt="No existen favoritos"
